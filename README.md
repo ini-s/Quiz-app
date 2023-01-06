@@ -1,5 +1,7 @@
  # Quizzical
 
+https://ini-s-quiz-app.netlify.app/
+
 ***This app accesses trivia questions from the [Open Trivia Database API](https://opentdb.com/) and scores players based on their answers.***
 
 
