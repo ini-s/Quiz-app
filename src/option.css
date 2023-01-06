@@ -1,0 +1,16 @@
+.option-box {
+    border: 0.8px solid #4D5B9E;
+    border-radius: 8px;
+    padding: 0.2rem;
+    min-width: 65px;
+    margin-right: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+    .option-box {
+        font-size: 0.65rem;
+    }
+}

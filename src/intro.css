@@ -1,0 +1,64 @@
+.intro .text {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro .top-shape {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.intro .bottom-shape {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.intro .top-shape,
+.intro .bottom-shape {
+    width: 20%;
+    height: 20%;
+}
+
+.intro .text h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.95rem;
+    color: #293264;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.intro .text p {
+    color: #293264;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.intro .text button {
+    border-style: none;
+    background: #4D5B9E;
+    border-radius: 15px;
+    color: #F5F7FB;
+    font-size: 1rem;
+    padding: 1.2rem 5rem;
+}
+
+@media screen and (max-width:480px) {
+    .intro .text button {
+        padding: 0.8rem 3rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .intro .top-shape,
+    .intro .bottom-shape {
+        width: 30%;
+        height: 10%;
+    }
+}

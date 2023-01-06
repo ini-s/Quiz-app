@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+.app .quiz-box{
+  width: 700px;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app .quiz-box .bottom-btn{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.app .quiz-box .bottom-btn .check-answers-btn, .app .quiz-box .answers-msg .play-again-btn{
+  border-style:none;
+  background: #4D5B9E;
+  border-radius: 15px;
+  color: #F5F7FB;
+  font-size: 1rem;
+  padding:0.8rem 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.app .quiz-box .answers-msg{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  margin-top:2rem;
+}
+
+.app .quiz-box .answers-msg h3{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px){
+  .app .quiz-box{
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 480px){
+  .app .quiz-box .answers-msg{
+    display:block;
   }
 }

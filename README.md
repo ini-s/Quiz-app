@@ -1,3 +1,16 @@
+ # Quizzical
+
+***This app accesses trivia questions from the [Open Trivia Database API](https://opentdb.com/) and scores players based on their answers.***
+
+
+***This is the final Solo Project of [Bob Ziroll's React Course on Scrimba](https://scrimba.com/learn/learnreact) developed from scratch by me.***
+
+## ⚒️ Built with:
+- HTML 5
+- CSS 3
+- JavaScript
+- React - JS library
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
