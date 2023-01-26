@@ -28,6 +28,7 @@ function App() {
     setPlayCount(prevCount => prevCount + 1)
     setGameStart(false)
     setIsClicked(false)
+    setCount(0)
   }
 
   function showAnswers() {
